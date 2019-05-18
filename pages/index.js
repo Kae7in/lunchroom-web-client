@@ -17,12 +17,10 @@ class Splash extends Component {
 
   render() {
     return (
-      <html>
-        <body>
-          <h1>My Second Heading</h1>
-          <p>My first fetch: {this.state.data}</p>
-        </body>
-      </html>
+      <div>
+        <h1>My Second Heading</h1>
+        <p>My first fetch: {this.state.data}</p>
+      </div>
     );
   }
 }

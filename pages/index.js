@@ -10,9 +10,9 @@ class Splash extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3000/api', { mode: 'cors'})
+    fetch('http://localhost:3000/beta-email-signup', { mode: 'cors'})
       .then(response => response.json())
-      .then(data => this.setState({ data: data.a }));
+      .then(data => this.setState({ data: data.msg }));
   }
 
   render() {

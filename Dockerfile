@@ -1,8 +1,8 @@
-FROM node:10
+FROM node:12
 
 RUN mkdir -p /usr/src/lunchroom/pages
 WORKDIR /usr/src/lunchroom
-EXPOSE 4000
+EXPOSE 3000
 
 COPY package*.json ./
 COPY pages/* ./pages

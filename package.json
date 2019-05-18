@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=development next start"
   },
   "dependencies": {
     "next": "^8.1.0",

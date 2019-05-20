@@ -26,36 +26,3 @@ class Splash extends Component {
 }
 
 export default Splash
-
-// const Index = () => (
-//   <html>
-//     <body>
-//       <h1>My First Heading</h1>
-//       <p>My first paragraph.</p>
-//     </body>
-//   </html>
-// )
-//
-// export default Index
-
-
-// import React, { Component } from 'react';
-//
-// class App extends Component {
-//   constructor(props) {
-//     super(props);
-//
-//     this.state = {
-//       data: null,
-//     };
-//   }
-//
-//   componentDidMount() {
-//     fetch('localhost:3000/api')
-//       .then(response => response.json())
-//       .then(data => this.setState({ data }));
-//   }
-//
-// }
-//
-// export default Index;
